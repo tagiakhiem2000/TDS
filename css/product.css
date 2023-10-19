@@ -1,0 +1,116 @@
+body .header .show {
+  display: block !important;
+}
+body .header .mySlide {
+  display: none;
+  object-fit: cover;
+  width: -webkit-fill-available;
+  height: 350px;
+}
+body .header #carouselExampleIndicators {
+  z-index: 0;
+}
+body .header .btn {
+  width: 150px;
+}
+body .header .navbar {
+  background-color: rgba(0, 0, 0, 0) !important;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+body .header .navbar #navbarSupportedContent li a {
+  color: #fff;
+  opacity: 1;
+  font-weight: bolder;
+}
+body .header .scrolldown {
+  background: black !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+body .side-bar button {
+  width: 180px;
+  text-align: start;
+  height: 40px;
+}
+body .side-bar button i {
+  display: inline;
+  font-size: x-large;
+}
+body .side-bar button p {
+  display: inline;
+  font-size: x-large;
+  padding-bottom: 5px !important;
+}
+body .side-bar #sidebarFacebook {
+  top: 200px;
+  position: fixed;
+  right: 0px;
+  display: block;
+  background-color: rgba(17, 0, 255, 0.795);
+}
+body .side-bar #sidebarIns {
+  top: 244px;
+  position: fixed;
+  right: 0px;
+  display: block;
+  background-color: rgb(224, 31, 224);
+}
+body .side-bar #sidebarYoutube {
+  top: 288px;
+  position: fixed;
+  right: 0px;
+  display: block;
+  background-color: rgb(231, 43, 43);
+}
+body .side-bar #sidebarZalo {
+  top: 332px;
+  position: fixed;
+  right: 0px;
+  display: block;
+  background-color: rgb(28, 240, 240);
+}
+body #productWrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body #productWrapper #productThumbs {
+  list-style-type: none;
+}
+body #productWrapper #productThumbs li {
+  margin-bottom: 10px;
+}
+body #productWrapper img {
+  width: 100%;
+}
+body .footer {
+  background: lightgreen;
+}
+body .footer a {
+  text-decoration-color: red;
+  text-emphasis-color: red;
+  -webkit-text-fill-color: red;
+}
+body .footer .container {
+  text-align: left;
+  margin-top: unset;
+}
+body .footer #tendangnhap {
+  display: block;
+}
+body .footer #matkhau {
+  display: block;
+}
+body .socialite-small {
+  width: 50px !important;
+  text-align: center !important;
+}
+body .socialite-small .text {
+  display: none !important;
+}
+
+/*# sourceMappingURL=product.css.map */

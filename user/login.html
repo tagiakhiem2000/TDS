@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="login">
+    <head class="header">
+        <title>Log In</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div class="hd-logo text-left">
+                        <a href="file:///C:/Users/Administrator/Desktop/Nestech-F-K10/Khiemdz/TDS/index.html#">
+                            <img src="https://theme.hstatic.net/1000387607/1000720897/14/logo.png?v=100" alt="Tiến Dinh Sport">
+                        </a>
+                    </div>
+                    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button> -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SẢN PHẨM
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">   
+                            <li><a class="dropdown-item" href="#">Vợt cầu lông</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Giày cầu lông</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Quần áo cầu lông</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Bao vợt cầu lông</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Phụ kiện cầu lông</a></li>                                   
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Máy căng vợt cầu lông</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Phụ kiện máy căng vợt</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Thảm cầu lông</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Đồ lưu niệm</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CỬA HÀNG</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">LIÊN HỆ</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+                      </ul>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Bạn muốn tìm gì?" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                      </form>
+                    </div>
+                  </div>
+            </nav>
+        </header>
+        <div class="contentlogin row justify-content-center">
+            <div class="col-8 welcome">
+                <div class="header_log">
+                    <h3>Chào mừng đến với Tiến Dinh Sport. Đăng nhập ngay!</h3>
+                    <p>Thành viên mới?
+                        <span>Đăng ký tại
+                            <a href="register.html">đây</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div>
+                <div class="section-login">
+                    <div class="row justify-content-center"> 
+                        <section class="section1-login col-4 justify-content-center">                
+                            <div class="mb-3">
+                                <label for="" class="form-label color-text">Số điện thoại hoặc email*</label>
+                                <input type="text" class="form-control" id="username" placeholder="Vui lòng nhập số điện thoại hoặc email của bạn">
+                                <span id="error1" class="error"></span>
+                            </div>
+                            
+                            <div class="mb-3" style="margin-top: 40px;">
+                                <label for="" class="form-label color-text">Mật khẩu*</label>
+                                <div class="da-son-login">
+                                    <input id="password" type="password" class="form-control" id="" placeholder="Vui lòng nhập mật khẩu của bạn" required="">
+                                    <i class="far fa-eye" id="eye"></i>
+                                    <span id="error2" class="error"></span>
+                                </div>   
+                            </div>  
+                            <div class="forgotpass">
+                                
+                                    <span>
+                                        <a href="register.html">Quên mật khẩu?</a>
+                                    </span>
+                            </div>
+                        </section>
+
+                        <section class="section2-login col-3 justify-content-center">
+                            <button class="btn-sign-login" id="btn-login">ĐĂNG NHẬP</button>
+                            <div class="text-policy-login">
+                                <p>Hoặc, đăng nhập bằng</p>
+                            </div>
+                            
+                            <div class="fa-go-login">
+                                <button class="fa-login" id="btn-facebook">
+                                    <i class="fab fa-facebook-f" style="color: #fff;"></i>
+                                    <span>Facebook</span>
+                                </button>
+                                <button class="fa-login fa-back-login" id="btn-google">
+                                    <i class="fab fa-google-plus-g fa-lg" style="color: #ffffff;"></i>
+                                    <span>Google</span>
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+      <!--footnote-->
+      <footer class="footer">
+        <div class="container">
+          <div class="row justify-content-start">
+            <div class="col-5">
+              <div class="ft-contact">
+                <h3>TIẾN DINH SPORT</h3>
+                <div class="ft-contact-address">
+                  Địa chỉ:<br><a href="https://goo.gl/maps/vxRRpARgSBkBkYYq7" target="_blank"><i class="fa fa-map-marker"></i> 613 Trương Định, Thịnh Liệt, Hoàng Mai, Hà Nội</a><br>              <a href="https://goo.gl/maps/6eqK6aXzxu5ZrSqJ8" target="_blank"><i class="fa fa-map-marker"></i> 93 Tây Sơn, Quang Trung, Đống Đa, Hà Nội</a><br>               <a href="https://goo.gl/maps/ksQYf3BEzCEWZoFc6" target="_blank"><i class="fa fa-map-marker"></i> 10 Nguyễn Khánh Toàn, Quan Hoa, Cầu Giấy, Hà Nội</a>   
+                </div>
+                <div class="ft-contact-tel">
+                  Số điện thoại:  <a href="tel:086.921.7669 - 086.916.7669 - 086.915.7669">086.921.7669 - 086.916.7669 - 086.915.7669</a>
+                </div>
+                <div class="ft-contact-email">
+                  Email: <a href="mailto:tiendinhsport@gmail.com">tiendinhsport@gmail.com</a>
+                </div>
+              </div>  
+            </div>
+            <div class="col-3">
+              <h3>GIỜ MỞ CỬA</h3>
+              <p>Thứ 2-Thứ 6: 8h00-20h00</p>
+              <p>Thứ 7 - Chủ nhật: 8h00-19h00</p>
+              <p>(Áp dụng cho 3 cơ sở)</p>
+            </div>
+            <div class="col-4">
+              <h3>ĐĂNG NHẬP</h3>
+              <p>Mỗi tháng chúng tôi đều có đợt giảm giá dịch vụ và sản phẩm nhằm tri ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng <a href="login.html">đăng nhập</a>. Nếu bạn chưa có tài khoản, vui lòng đăng ký <a href="register.html">tại đây</a>.</p>
+            </div>
+          </div>
+      </footer>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/2ea65547ea.js" crossorigin="anonymous"></script>
+        <script src="../js/login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+body{
+    .header {
+        .show {
+            display: block !important;
+        }
+        .mySlide {
+            display: none;
+            object-fit: cover;
+            width: -webkit-fill-available;
+            height: 350px;
+        }
+        #carouselExampleIndicators {
+            z-index: 0;
+        }
+        .btn {
+            width: 150px;
+
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0) !important;
+            position: absolute;
+            z-index: 100;
+            width: 100%;
+
+            #navbarSupportedContent {
+                li {
+                    a {
+                        color: #fff;
+                        opacity: 1;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+        .scrolldown{
+            background: black!important;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+        }
+    }
+    .side-bar {
+        button {
+            i {
+                display: inline;
+                font-size: x-large;
+            }
+
+            p {
+                display: inline;
+                font-size: x-large;
+                padding-bottom: 5px !important;
+            }
+
+            width: 180px;
+            text-align: start;
+            height: 40px;
+        }
+
+        #sidebarFacebook {
+            top: 200px;
+            position: fixed;
+            right: 0px;
+            display: block;
+            background-color: rgba(17, 0, 255, 0.795);
+        }
+
+        #sidebarIns {
+            top: 200px + 44px;
+            position: fixed;
+            right: 0px;
+            display: block;
+            background-color: rgb(224, 31, 224);
+        }
+
+        #sidebarYoutube {
+            top: 200px + 2*44px;
+            position: fixed;
+            right: 0px;
+            display: block;
+            background-color: rgb(231, 43, 43);
+
+        }
+
+        #sidebarZalo {
+            top: 200px + 3*44px;
+            position: fixed;
+            right: 0px;
+            display: block;
+            background-color: rgb(28, 240, 240);
+        }
+    }
+    #productWrapper{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        #productThumbs{
+            list-style-type: none;
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .footer {
+        background: lightgreen;
+    
+        a {
+            text-decoration-color: red;
+            text-emphasis-color: red;
+            -webkit-text-fill-color: red;
+        }
+    
+        .container {
+            text-align: left;
+            margin-top: unset;
+        }
+    
+        #tendangnhap {
+            display: block;
+        }
+    
+        #matkhau {
+            display: block;
+        }
+    }
+    .socialite-small {
+        width: 50px !important;
+        text-align: center !important;
+
+        .text {
+            display: none !important;
+        }
+    }
+}
